@@ -17,6 +17,7 @@ const Search = () => {
           onChange={(event) => setCepNumber(event.target.value)}
         />
         <Button
+          type="env"
           primary
           disabled={!cepNumber}
           onClick={() => handleSearch(cepNumber)}
